@@ -5,17 +5,33 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
+    float maxhealth = 100;
+    float currentHealth;
+    [SerializeField] GameObject[] hearthImage = new GameObject[3]; 
 
-    [SerializeField] Image[] hearts = new Image[3]; 
+    
+    
+
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+
+    }
+    
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
     }
 
     // Update is called once per frame
-    void Update()
+    void UpdateHealth()
     {
+        float fillAmount = currentHealth / maxhealth;
+
         
+
+              
     }
 }

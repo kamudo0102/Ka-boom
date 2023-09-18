@@ -1,26 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
     [Header("Movement Adjusment")]
-    [SerializeField] float acceleration = 10f;
+    [SerializeField]float acceleration = 10f;
     [SerializeField] float deacceleration = 4;
-    [SerializeField] float speed = 5;
+    [SerializeField]float speed = 5;
 
     [Header("Heart")]
-    [SerializeField] GameObject[] heart = new GameObject[3];
-
     Vector2 velocity = Vector2.zero;
     Vector2 position;
     Vector2 rawInput;
 
+    Rigidbody2D rb2D;
 
+    GameObject enemy;
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb2D = GetComponent<Rigidbody2D>(); 
     }
 
     // Update is called once per frame
@@ -31,6 +35,7 @@ public class Player : MonoBehaviour
 
     public void Movement()
     {
+
         rawInput.x = Input.GetAxisRaw("Horizontal");
         rawInput.y = Input.GetAxisRaw("Vertical");
 
@@ -53,15 +58,27 @@ public class Player : MonoBehaviour
             velocity *= 1 - deacceleration * Time.deltaTime;
         }
 
-        position += velocity * Time.deltaTime;
-        transform.position = position;
+       rb2D.velocity = velocity;
+
     }
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-       if (other.gameObject.CompareTag("Enemy"))
-       {
-            Debug.Log("Ouch!");
-       } 
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("");
+        }
+      
+    }
+
+  
+
+    
+
+    public void Die()
+    {
+        SceneManager.LoadScene(1);
     }
 }
+
+
