@@ -5,9 +5,9 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [Header("Movement Adjusment")]
-    [SerializeField]float acceleration = 10f;
+    [SerializeField] float acceleration = 10f;
     [SerializeField] float deacceleration = 4;
-    [SerializeField]float speed = 5;
+    [SerializeField] float speed = 5;
 
     [Header("Heart")]
     [SerializeField] GameObject[] heart = new GameObject[3];
@@ -31,7 +31,6 @@ public class Player : MonoBehaviour
 
     public void Movement()
     {
-
         rawInput.x = Input.GetAxisRaw("Horizontal");
         rawInput.y = Input.GetAxisRaw("Vertical");
 
@@ -56,13 +55,13 @@ public class Player : MonoBehaviour
 
         position += velocity * Time.deltaTime;
         transform.position = position;
-
     }
 
-    public void OnCollisionEnter2D(Collision2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
        if (other.gameObject.CompareTag("Enemy"))
        {
+            Debug.Log("Ouch!");
        } 
     }
 }

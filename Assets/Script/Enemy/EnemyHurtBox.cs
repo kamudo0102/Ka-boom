@@ -4,11 +4,19 @@ using UnityEngine;
 
 public class EnemyHurtBox : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    private Enemy enemy;
+
+    private void Start()
     {
-        if (collision.gameObject.CompareTag("Player")) // Change to bullet
+        enemy = GetComponentInParent<Enemy>();
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Bullet")) // Change to bullet
         {
-            Destroy(transform.parent.gameObject);
+            enemy.TakeDamage();
+            enemy.GetKnockBacked((transform.position - collision.transform.position).normalized, 5);
+            Destroy(collision.gameObject);
         }
     }
 }
