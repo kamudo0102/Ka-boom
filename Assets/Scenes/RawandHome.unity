@@ -131,6 +131,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3215430387481009176, guid: 178657f58dfdfe8449cca1157c478929, type: 3}
+      propertyPath: token
+      value: 
+      objectReference: {fileID: 8409162925755067525, guid: 7ecfc37dcf39b394b9e91153725ed1c6, type: 3}
     - target: {fileID: 6422290250209683558, guid: 178657f58dfdfe8449cca1157c478929, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -306,6 +310,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5014654102884266383, guid: 535a77b277bb6b844bede539cf9fd1a1, type: 3}
   m_PrefabInstance: {fileID: 1391103495}
   m_PrefabAsset: {fileID: 0}
+--- !u!50 &296711960
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296711950}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1023382977
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,6 +559,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3840494896629583009, guid: 535a77b277bb6b844bede539cf9fd1a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 296711951}
+    - targetCorrespondingSourceObject: {fileID: 3840494896629583009, guid: 535a77b277bb6b844bede539cf9fd1a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 296711960}
   m_SourcePrefab: {fileID: 100100000, guid: 535a77b277bb6b844bede539cf9fd1a1, type: 3}
 --- !u!1 &1717585257
 GameObject:
