@@ -5,9 +5,9 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [Header("Movement Adjusment")]
-    [SerializeField]float acceleration = 20f;
-    [SerializeField]float deacceleration = 5;
-    [SerializeField]float speed = 10;
+    float acceleration = 10f;
+    float deacceleration = 4;
+    float speed = 5;
 
     Vector2 velocity = Vector2.zero;
     Vector2 position;
