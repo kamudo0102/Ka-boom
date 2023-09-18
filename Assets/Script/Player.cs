@@ -9,6 +9,9 @@ public class Player : MonoBehaviour
     [SerializeField] float deacceleration = 4;
     [SerializeField]float speed = 5;
 
+    [Header("Heart")]
+    [SerializeField] GameObject[] heart = new GameObject[3];
+
     Vector2 velocity = Vector2.zero;
     Vector2 position;
     Vector2 rawInput;
@@ -54,5 +57,12 @@ public class Player : MonoBehaviour
         position += velocity * Time.deltaTime;
         transform.position = position;
 
+    }
+
+    public void OnCollisionEnter2D(Collision2D other)
+    {
+       if (other.gameObject.CompareTag("Enemy"))
+       {
+       } 
     }
 }
