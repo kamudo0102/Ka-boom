@@ -8,7 +8,7 @@ public class PlayerGun : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform gun;
     float timer;
-    float fireRate = 0.1f;
+    public float fireRate = 0.1f;
 
     void Update()
     {
@@ -45,6 +45,7 @@ public class PlayerGun : MonoBehaviour
             bullet.speed += transform.parent.GetComponent<Rigidbody2D>().velocity.magnitude;
 
             bullet.direction = direction.normalized;
+            bullet.transform.localScale = -transform.localScale;
         }
 
         timer += Time.deltaTime;
