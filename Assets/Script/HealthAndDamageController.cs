@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HealthController : MonoBehaviour
+public class HealthAndDamageController : MonoBehaviour
 {
     
     public float playerHealth;
-    [SerializeField] Image[] hearts;
+    public float enemyDamage;
+    [SerializeField]public Image[] hearts;
 
 
     
@@ -16,11 +17,20 @@ public class HealthController : MonoBehaviour
     {
         UpdateHealth();
     }
-    
-    public void TakeDamage(int damage)
-    {
-       
 
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            Damage();
+        }
+    }
+
+    void Damage()
+    {
+        playerHealth -= enemyDamage;
+        UpdateHealth();
+        gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -34,11 +44,11 @@ public class HealthController : MonoBehaviour
         {
             if (i < playerHealth )
             {
-                hearts[i].color = Color.red;
+                hearts[i].enabled = true;
             }
             else
             {
-                hearts[i].color = Color.black;
+                hearts[i].enabled = false;
             }
 
         }
