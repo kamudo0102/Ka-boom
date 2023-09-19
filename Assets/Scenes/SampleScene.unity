@@ -2625,8 +2625,8 @@ MonoBehaviour:
   - {fileID: 3001818782866110006}
   - {fileID: 193254381399976128}
   enemy: {fileID: 6422290250209683558, guid: 178657f58dfdfe8449cca1157c478929, type: 3}
-  amountPerWave: 6
-  timeBetweenWaves: 5
+  amountPerWave: 9
+  timeBetweenWaves: 1
 --- !u!1 &6794498671890807536
 GameObject:
   m_ObjectHideFlags: 0

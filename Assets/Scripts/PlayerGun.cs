@@ -33,6 +33,8 @@ public class PlayerGun : MonoBehaviour
             Bullet bullet = Instantiate(bulletPrefab, gun.position, transform.rotation).GetComponent<Bullet>();
 
             bullet.speed += transform.parent.GetComponent<Rigidbody2D>().velocity.magnitude;
+
+            bullet.direction = direction.normalized;
         }
 
         timer += Time.deltaTime;
