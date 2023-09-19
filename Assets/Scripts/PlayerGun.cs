@@ -18,7 +18,9 @@ public class PlayerGun : MonoBehaviour
         if (Input.GetMouseButton(0) && timer > fireRate)
         {
             timer = 0;
-            Instantiate(bulletPrefab, gun.position, transform.rotation);
+            Bullet bullet = Instantiate(bulletPrefab, gun.position, transform.rotation).GetComponent<Bullet>();
+
+            bullet.speed += transform.parent.GetComponent<Rigidbody2D>().velocity.magnitude;
         }
 
         timer += Time.deltaTime;
