@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
 {
     [Header("Movement Adjusment")]
     [SerializeField]float acceleration = 10f;
-    [SerializeField] float deacceleration = 4;
+    [SerializeField] float deacceleration = 1;
     [SerializeField]float speed = 5;
 
     [Header("Heart")]
@@ -53,12 +53,12 @@ public class Player : MonoBehaviour
             velocity *= speed;
         }
 
-        if(rawInput.sqrMagnitude== 0)
+        if (rawInput.sqrMagnitude == 0)
         {
             velocity *= 1 - deacceleration * Time.deltaTime;
         }
 
-       rb2D.velocity = velocity;
+        rb2D.velocity = velocity;
 
     }
 
