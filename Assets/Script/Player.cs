@@ -1,3 +1,4 @@
+using Pathfinding;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -19,10 +20,13 @@ public class Player : MonoBehaviour
 
     Rigidbody2D rb2D;
 
+    public static Player instance;
+
     // Start is called before the first frame update
     void Start()
     {
-        rb2D = GetComponent<Rigidbody2D>(); 
+        rb2D = GetComponent<Rigidbody2D>();
+        instance = this;
     }
 
     // Update is called once per frame
@@ -59,18 +63,6 @@ public class Player : MonoBehaviour
         rb2D.velocity = velocity;
 
     }
-
-    public void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Enemy"))
-        {
-            Debug.Log("");
-        }
-      
-    }
-
-  
-
     
 
     public void Die()
