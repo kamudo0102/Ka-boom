@@ -20,7 +20,7 @@ public class HealthAndDamageController : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Enemy"))
         {
             Damage();
         }
@@ -30,7 +30,6 @@ public class HealthAndDamageController : MonoBehaviour
     {
         playerHealth -= enemyDamage;
         UpdateHealth();
-        gameObject.SetActive(false);
     }
 
     // Update is called once per frame
