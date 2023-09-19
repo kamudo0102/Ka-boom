@@ -113,10 +113,10 @@ TextureImporter:
       name: barn_0
       rect:
         serializedVersion: 2
-        x: 72
-        y: 144
-        width: 72
-        height: 96
+        x: 62
+        y: 136
+        width: 80
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b86c01869798e64b91dcd0dce7296d6
-      internalID: -1838360933
+      spriteID: 666a01dbe2a9bec4f895c42eda0c137f
+      internalID: -856442770
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      barn_0: -1838360933
+      barn_0: -856442770
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

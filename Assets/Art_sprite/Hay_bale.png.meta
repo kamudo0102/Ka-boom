@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c419a5481f7997242ad4b961bcb43878
+guid: 60185925741c23748b275f3dc302c1b8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Little Bush_0
+      name: Hay_bale_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 24
-        height: 22
+        x: 4
+        y: 316
+        width: 63
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 811f78e981839a7448c6f61ef5ac998c
-      internalID: 177787019
+      spriteID: 52e98e3391cd01744ac5949d568845d9
+      internalID: -184544023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hay_bale_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 314
+        width: 77
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0174614645b96f74e9d411bbf8fd95f2
+      internalID: 1414322605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hay_bale_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 250
+        width: 74
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5959a5452434724291ad52e32e707cf
+      internalID: -1939204046
       vertices: []
       indices: 
       edges: []
@@ -141,7 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Little Bush_0: 177787019
+      Hay_bale_0: -184544023
+      Hay_bale_1: 1414322605
+      Hay_bale_2: -1939204046
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

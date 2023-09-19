@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c419a5481f7997242ad4b961bcb43878
+guid: 036a71438546510419256250f97ed400
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Little Bush_0
+      name: Farmer_ idle_animation1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 24
-        height: 22
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 811f78e981839a7448c6f61ef5ac998c
-      internalID: 177787019
+      spriteID: 8f54d88dc817a09438e9490d067f4bae
+      internalID: -1089529541
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Little Bush_0: 177787019
+      Farmer_ idle_animation1_0: -1089529541
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
