@@ -381,6 +381,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 5405045541522399990, guid: 2dfd165ab452c4c48a8bc355e6666c5a, type: 3}
   gun: {fileID: 7043107102750458705}
+  targetObject: {fileID: 5014654102884266383}
+  scaleValue: -1
 --- !u!1 &3840494896629583009
 GameObject:
   m_ObjectHideFlags: 0
@@ -486,10 +488,6 @@ MonoBehaviour:
   acceleration: 50
   deacceleration: 50
   speed: 5
-  heart:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!58 &9096228066037961972
 CircleCollider2D:
   m_ObjectHideFlags: 0
