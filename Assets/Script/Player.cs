@@ -15,12 +15,10 @@ public class Player : MonoBehaviour
 
     [Header("Heart")]
     Vector2 velocity = Vector2.zero;
-    Vector2 position;
     Vector2 rawInput;
 
     Rigidbody2D rb2D;
 
-    GameObject enemy;
     // Start is called before the first frame update
     void Start()
     {
