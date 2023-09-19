@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b17aa8aaba301174ba37beb93465474f
+guid: e942763adf7590e44bc4c47351e14483
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: farmer_0
+      name: farmer_w_gun_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,17 +124,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db23f36f67d1bf14687bd8c95a9f854f
-      internalID: 1225356612
+      spriteID: 4aed093c76922214dba418bdac5f8c34
+      internalID: 1003029608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmer_1
+      name: farmer_w_gun_1
       rect:
         serializedVersion: 2
-        x: 24
+        x: 72
         y: 216
         width: 24
         height: 24
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21ec4f7242db12f4795d436ce796cd86
-      internalID: -576562285
+      spriteID: dfc88276c6f55fb4e99bb3a6dc91f501
+      internalID: 34672302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmer_2
+      name: farmer_w_gun_2
       rect:
         serializedVersion: 2
         x: 0
@@ -166,17 +166,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ad9ce723a562834980c7840051247ac
-      internalID: -1025871482
+      spriteID: 0c957a39c9c83134ea8d8a9214e436f6
+      internalID: -49308325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmer_3
+      name: farmer_w_gun_3
       rect:
         serializedVersion: 2
-        x: 24
+        x: 72
         y: 192
         width: 24
         height: 24
@@ -187,8 +187,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6db344d69960ad449f2351c9ba32282
-      internalID: 703528007
+      spriteID: e21734e8657c56d48abb8650006e1570
+      internalID: 834426504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_w_gun_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcb99e2235281a4ca1a42f34beedb10
+      internalID: -1199140092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_w_gun_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa99e0bf22f1b64389950517385d59b
+      internalID: -1562202392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_w_gun_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0f9e9f8267a9b4986ad691cec45147
+      internalID: 2039668164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_w_gun_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23edacb66f05a64fbc437d8bcaca51b
+      internalID: 283388205
       vertices: []
       indices: 
       edges: []
@@ -204,10 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      farmer_0: 1225356612
-      farmer_1: -576562285
-      farmer_2: -1025871482
-      farmer_3: 703528007
+      farmer_w_gun_0: 1003029608
+      farmer_w_gun_1: 34672302
+      farmer_w_gun_2: -49308325
+      farmer_w_gun_3: 834426504
+      farmer_w_gun_4: -1199140092
+      farmer_w_gun_5: -1562202392
+      farmer_w_gun_6: 2039668164
+      farmer_w_gun_7: 283388205
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
