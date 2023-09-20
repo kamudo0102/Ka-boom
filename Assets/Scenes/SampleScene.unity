@@ -5785,6 +5785,10 @@ PrefabInstance:
       propertyPath: tokentext
       value: 
       objectReference: {fileID: 1905542459}
+    - target: {fileID: 3660412900948120804, guid: 535a77b277bb6b844bede539cf9fd1a1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1249
+      objectReference: {fileID: 0}
     - target: {fileID: 3724579147159136454, guid: 535a77b277bb6b844bede539cf9fd1a1, type: 3}
       propertyPath: m_Interpolate
       value: 1
@@ -5867,7 +5871,7 @@ PrefabInstance:
       objectReference: {fileID: 1063928556}
     - target: {fileID: 7188886000032850620, guid: 535a77b277bb6b844bede539cf9fd1a1, type: 3}
       propertyPath: fireRate
-      value: 0.25
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 9002402424158753902, guid: 535a77b277bb6b844bede539cf9fd1a1, type: 3}
       propertyPath: enemyDamage
