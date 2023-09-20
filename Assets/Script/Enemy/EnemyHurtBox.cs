@@ -16,7 +16,9 @@ public class EnemyHurtBox : MonoBehaviour
         {
             enemy.TakeDamage();
             enemy.GetKnockBacked((transform.position - collision.transform.position).normalized, 5);
-            Destroy(collision.gameObject);
+
+            if (collision.gameObject.GetComponent<Bullet>() != null)
+                Destroy(collision.gameObject);
         }
     }
 }
