@@ -282,6 +282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: 0
   enemyDamage: 0
+  screenDelayTime: 1
   hearts: []
 --- !u!114 &161624843
 MonoBehaviour:
