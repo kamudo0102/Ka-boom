@@ -22,6 +22,8 @@ public class Enemy : MonoBehaviour
 
         if (health <= 0)
             OnDeath();
+
+        GetComponent<Animator>().SetTrigger("Hurt");
     }
 
     public virtual void GetKnockBacked(Vector2 direction, float power)
