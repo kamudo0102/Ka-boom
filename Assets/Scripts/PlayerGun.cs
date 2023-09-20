@@ -22,7 +22,7 @@ public class PlayerGun : MonoBehaviour
         transform.right = direction * transform.localScale.x;
 
         // Check if the mouse is on the left side of the GameObject.
-        if (worldMousePosition.x < player.transform.position.x)
+        if (worldMousePosition.x < player.transform.position.x && Mathf.Abs(worldMousePosition.x - player.transform.position.x) > 0.1f)
         {
             // Change the scale of the GameObject to -1 on the x-axis.
             Vector3 newScale = transform.localScale;
