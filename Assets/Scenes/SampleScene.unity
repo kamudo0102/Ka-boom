@@ -5871,7 +5871,7 @@ PrefabInstance:
       objectReference: {fileID: 1063928556}
     - target: {fileID: 7188886000032850620, guid: 535a77b277bb6b844bede539cf9fd1a1, type: 3}
       propertyPath: fireRate
-      value: 0.2
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 9002402424158753902, guid: 535a77b277bb6b844bede539cf9fd1a1, type: 3}
       propertyPath: enemyDamage
