@@ -34,6 +34,7 @@ public class Enemy : MonoBehaviour
     {
         Destroy(gameObject);
         Instantiate(token, transform.position, transform.rotation);
+        EnemySpawner.Instance.enemiesKilled++;
     }
 
     IEnumerator Halt()

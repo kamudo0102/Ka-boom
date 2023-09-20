@@ -5,18 +5,24 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
+    public static EnemySpawner Instance;
+
     [SerializeField] private Transform[] spawnPositions;
     [SerializeField] private GameObject enemy;
 
     private bool[] usedPositions;
 
-    public int amountPerWave;
-    public float timeBetweenWaves;
+    private int amountPerWave;
+    private float timeBetweenWaves;
+
+    public int enemiesKilled = 0;
 
     private float timer = 0;
 
     private void Start()
     {
+        Instance = this;
+
         usedPositions = new bool[spawnPositions.Length];
 
         for (int i = 0; i < usedPositions.Length; i++)
@@ -39,6 +45,9 @@ public class EnemySpawner : MonoBehaviour
 
     private void SpawnEnemies()
     {
+        timeBetweenWaves = 5 - enemiesKilled * 0.01f;
+        amountPerWave = 2 + Mathf.FloorToInt(enemiesKilled / 30);
+
         if (amountPerWave > spawnPositions.Length)
             amountPerWave = spawnPositions.Length;
         if (timeBetweenWaves < 0.5f)

@@ -4,28 +4,38 @@ using UnityEngine;
 
 public class PlayerGun : MonoBehaviour
 {
+    public GameObject player;
     public GameObject bulletPrefab;
     public Transform gun;
     float timer;
-    float fireRate = 0.1f;
+    public float fireRate = 0.1f;
 
-    //public Transform targetObject; // Reference to the GameObject whose left side will trigger the scale change.
-    //public float scaleValue = -1f;  // The scale value to set when the collision occurs.
-
-    // Update is called once per frame
     void Update()
     {
-        Vector2 direction = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
-        transform.right = direction;
+        // Get the mouse position in screen coordinates
+        Vector2 mousePosition = Input.mousePosition;
 
-        // Check if the GameObject's x-coordinate is less than or equal to the targetObject's left side.
-        /*if (transform.position.x <= targetObject.position.x)
+        // Convert the screen position to world position.
+        Vector3 worldMousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+
+        Vector2 direction = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
+        transform.right = direction * transform.localScale.x;
+
+        // Check if the mouse is on the left side of the GameObject.
+        if (worldMousePosition.x < player.transform.position.x)
         {
-            // Change the scale of the GameObject on the x-axis.
+            // Change the scale of the GameObject to -1 on the x-axis.
             Vector3 newScale = transform.localScale;
-            newScale.x = scaleValue;
+            newScale.x = -1f;
             transform.localScale = newScale;
-        }*/
+        }
+        else
+        {
+            // Reset the scale to its original state (1 on the x-axis).
+            Vector3 newScale = transform.localScale;
+            newScale.x = 1f;
+            transform.localScale = newScale;
+        }
 
         if (Input.GetMouseButton(0) && timer > fireRate)
         {
@@ -35,6 +45,7 @@ public class PlayerGun : MonoBehaviour
             bullet.speed += transform.parent.GetComponent<Rigidbody2D>().velocity.magnitude;
 
             bullet.direction = direction.normalized;
+            bullet.transform.localScale = -transform.localScale;
         }
 
         timer += Time.deltaTime;
