@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+// Player.Prefs.SetInt("Variabelnamn", värde)
+// Player.Prefs.GetInt("Variabelnamn")
 public class PlayerGun : MonoBehaviour
 {
     public GameObject player;
