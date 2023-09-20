@@ -5,20 +5,22 @@ using UnityEngine;
 public class PlayerAnimationHandler : MonoBehaviour
 {
     private Animator animator;
+    private Rigidbody2D rb;
     private Vector2 mouseDirection;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
     {
         mouseDirection = (Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position)).normalized;
+        animator.SetFloat("Velocity", Mathf.Abs(rb.velocity.x + rb.velocity.y));
 
         if (mouseDirection.y > Mathf.Abs(mouseDirection.x))
         {
-            // Looking Up
             if (mouseDirection.x > 0)
             {
                 animator.SetBool("UpRight", true);
@@ -36,7 +38,6 @@ public class PlayerAnimationHandler : MonoBehaviour
         }
         else
         {
-            // Looking Down
             if (mouseDirection.x > 0)
             {
                 animator.SetBool("UpRight", false);
@@ -53,6 +54,4 @@ public class PlayerAnimationHandler : MonoBehaviour
             }
         }
     }
-
-
 }

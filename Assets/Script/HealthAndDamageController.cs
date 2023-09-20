@@ -35,6 +35,7 @@ public class HealthAndDamageController : MonoBehaviour
         playerHealth -= enemyDamage;
         UpdateHealth();
         StartCoroutine("FreezeFrame");
+        GetComponent<Animator>().SetTrigger("Hurt");
     }
 
     // Update is called once per frame
