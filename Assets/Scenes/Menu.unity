@@ -1225,7 +1225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4850483080620237977, guid: 90cffd964b6610f4699693d7f8dd6641, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1726,7 +1726,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!58 &2109079107
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1824,7 +1824,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1926488249, guid: ddb09f6ee316de649bf434bc6ac8beff, type: 3}
+  m_Sprite: {fileID: 1604134322, guid: 0e181a27219de00458d24e491f965987, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1862,6 +1862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b6f48fb5a5285e4085160fc50d504b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  reloadScene: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

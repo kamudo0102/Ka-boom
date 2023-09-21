@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class StartEnemy : MonoBehaviour
 {
+    float delaytime = 1f;
 
     // Start is called before the first frame update
     private void OnCollisionEnter2D(Collision2D other)
@@ -13,7 +14,14 @@ public class StartEnemy : MonoBehaviour
         {
             Destroy(other.gameObject);
             GetComponent<Animator>().SetTrigger("OnHit");
+            Invoke("ReloadSceneMenu", delaytime);
+            
 
         }
+    }
+
+    public void ReloadSceneMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }
