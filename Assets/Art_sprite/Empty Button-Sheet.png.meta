@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 47e2400f0d84cdf4db6b73159eb5ada9
+guid: 939b11271e7b4a94aba9484fd061caad
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,76 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Controls-Sheet_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 96
-        width: 120
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb95151b2743c194cb36773521c63b75
-      internalID: -1490878966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Controls-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 96
-        width: 120
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a49c28f74e177d4e9c13494509d9eba
-      internalID: 286892900
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Controls-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 96
-        width: 120
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5244fc9def5c8c749a30927e1281512e
-      internalID: -1272649005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Controls-Sheet_3
+      name: Empty Button-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 120
-        height: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 239222ee41ee7ca4fba50519194c6890
-      internalID: 1754671476
+      spriteID: 412252969235e7a4dbd0171815348efe
+      internalID: -553699659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Controls-Sheet_4
+      name: Empty Button-Sheet_1
       rect:
         serializedVersion: 2
-        x: 120
+        x: 24
         y: 0
-        width: 120
-        height: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,8 +145,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f17aec686587c384ca989ad11806ea04
-      internalID: -1760076856
+      spriteID: a62c0cd8c8553ef40947bf529a35e4a8
+      internalID: 1549680743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empty Button-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1031ec226fe914546aeecdd33c99616b
+      internalID: -401188602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empty Button-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c838921db86b53645b1e21ad43204b66
+      internalID: -1240094670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empty Button-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67df4cc67d2a45441882d17ecfc0803e
+      internalID: 227292152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empty Button-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96ba9e740020184fa916617f57de5c2
+      internalID: 316634543
       vertices: []
       indices: 
       edges: []
@@ -225,11 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Controls-Sheet_0: -1490878966
-      Controls-Sheet_1: 286892900
-      Controls-Sheet_2: -1272649005
-      Controls-Sheet_3: 1754671476
-      Controls-Sheet_4: -1760076856
+      Empty Button-Sheet_0: -553699659
+      Empty Button-Sheet_1: 1549680743
+      Empty Button-Sheet_2: -401188602
+      Empty Button-Sheet_3: -1240094670
+      Empty Button-Sheet_4: 227292152
+      Empty Button-Sheet_5: 316634543
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
