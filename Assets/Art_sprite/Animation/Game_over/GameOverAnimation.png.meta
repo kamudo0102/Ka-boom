@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dabe1b6d55af7954dba072bfcbf1a34d
+guid: e6b6c04dc6305b043ad9781306510b7b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Game_over_animation_0
+      name: GameOverAnimation_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac401c41343307043833700d480ed210
-      internalID: 693737778
+      spriteID: dc1b413f1c5af924ebc4246a1b645bf6
+      internalID: 712332687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Game_over_animation_1
+      name: GameOverAnimation_1
       rect:
         serializedVersion: 2
         x: 400
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dd4d95bddc625040b560a352743d126
-      internalID: 952635586
+      spriteID: 5e8e4897eaa22984f87799f7ce6e5050
+      internalID: -790853584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Game_over_animation_2
+      name: GameOverAnimation_2
       rect:
         serializedVersion: 2
         x: 800
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ca37d97b402fd745a1812a399eced93
-      internalID: -736017913
+      spriteID: 5f6740eaf260e7845bec78d42e661600
+      internalID: 1056694069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Game_over_animation_3
+      name: GameOverAnimation_3
       rect:
         serializedVersion: 2
         x: 1200
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6e15b4b3c0ab6a40a23115f68bf0f9e
-      internalID: -511954948
+      spriteID: 0d7010430815242488fa48bca0c793b5
+      internalID: 149216114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Game_over_animation_4
+      name: GameOverAnimation_4
       rect:
         serializedVersion: 2
         x: 1600
@@ -208,8 +208,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3ec97ab865a7c2408f2f00fb4b4d7aa
-      internalID: 2057660623
+      spriteID: 3426bf866e2ddb8449b8c08cb65ba340
+      internalID: 283519150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverAnimation_5
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 400
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e03392748826149b04c4e9df226317
+      internalID: 1530546725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverAnimation_6
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 400
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b89f36832eff4445acfcfc4b74674d0
+      internalID: -1501339351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverAnimation_7
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0
+        width: 400
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a704a7e3ab7f66d4eb0c0bbc4aee8ce8
+      internalID: 1176102906
       vertices: []
       indices: 
       edges: []
@@ -225,11 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Game_over_animation_0: 693737778
-      Game_over_animation_1: 952635586
-      Game_over_animation_2: -736017913
-      Game_over_animation_3: -511954948
-      Game_over_animation_4: 2057660623
+      GameOverAnimation_0: 712332687
+      GameOverAnimation_1: -790853584
+      GameOverAnimation_2: 1056694069
+      GameOverAnimation_3: 149216114
+      GameOverAnimation_4: 283519150
+      GameOverAnimation_5: 1530546725
+      GameOverAnimation_6: -1501339351
+      GameOverAnimation_7: 1176102906
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
