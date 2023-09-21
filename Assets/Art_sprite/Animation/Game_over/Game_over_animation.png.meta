@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d2a78965c5fd424ea2532ad44675f5b
-      internalID: 269647887
+      spriteID: ac401c41343307043833700d480ed210
+      internalID: 693737778
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50e3009d068d63d48bfdbeaf1f6af410
-      internalID: -1862207648
+      spriteID: 1dd4d95bddc625040b560a352743d126
+      internalID: 952635586
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61d36c31bf643c94ab0225a2c38e672b
-      internalID: 1928213603
+      spriteID: 4ca37d97b402fd745a1812a399eced93
+      internalID: -736017913
       vertices: []
       indices: 
       edges: []
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59da5d9e61d18c2479bbbd189f92a44f
-      internalID: -1439460315
+      spriteID: d6e15b4b3c0ab6a40a23115f68bf0f9e
+      internalID: -511954948
       vertices: []
       indices: 
       edges: []
@@ -208,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f05981fa139bb1469c6d9ec85d65f6e
-      internalID: -623466858
+      spriteID: c3ec97ab865a7c2408f2f00fb4b4d7aa
+      internalID: 2057660623
       vertices: []
       indices: 
       edges: []
@@ -225,11 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Game_over_animation_0: 269647887
-      Game_over_animation_1: -1862207648
-      Game_over_animation_2: 1928213603
-      Game_over_animation_3: -1439460315
-      Game_over_animation_4: -623466858
+      Game_over_animation_0: 693737778
+      Game_over_animation_1: 952635586
+      Game_over_animation_2: -736017913
+      Game_over_animation_3: -511954948
+      Game_over_animation_4: 2057660623
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
