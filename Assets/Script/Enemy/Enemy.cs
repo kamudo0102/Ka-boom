@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
     private Rigidbody2D rb;
     public GameObject token;
 
-    private bool dead = false;
+    public bool dead = false;
 
     private void Start()
     {
@@ -19,7 +19,7 @@ public class Enemy : MonoBehaviour
         GetComponent<AIDestinationSetter>().target = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    private void Update()
+    public virtual void Update()
     {
         if (dead)
         {
@@ -48,10 +48,9 @@ public class Enemy : MonoBehaviour
         GetComponent<Animator>().SetTrigger("Dead");
         Instantiate(token, transform.position, transform.rotation);
         EnemySpawner.Instance.enemiesKilled++;
-
     }
 
-    public void DestroyThis()
+    public virtual void DestroyThis()
     {
         Destroy(gameObject);
     }
@@ -65,6 +64,7 @@ public class Enemy : MonoBehaviour
     IEnumerator Halt()
     {
         GetComponent<AIPath>().enabled = false;
+        rb.velocity = Vector2.zero;
         yield return new WaitForSeconds(1f);
         GetComponent<AIPath>().enabled = true;
     }
