@@ -44,7 +44,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -114,9 +114,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 24
+        y: 72
         width: 24
-        height: 23
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_1
       rect:
         serializedVersion: 2
-        x: 25
-        y: 25
-        width: 22
-        height: 23
+        x: 24
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,9 +156,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 24
+        y: 72
         width: 24
-        height: 23
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_3
       rect:
         serializedVersion: 2
-        x: 73
-        y: 25
-        width: 22
-        height: 23
+        x: 72
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,9 +198,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 24
+        y: 72
         width: 24
-        height: 23
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_5
       rect:
         serializedVersion: 2
-        x: 121
-        y: 25
-        width: 22
-        height: 23
+        x: 120
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,9 +240,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 24
+        y: 72
         width: 24
-        height: 23
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_7
       rect:
         serializedVersion: 2
-        x: 169
-        y: 25
-        width: 22
-        height: 23
+        x: 168
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,9 +282,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 24
+        y: 72
         width: 24
-        height: 23
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_9
       rect:
         serializedVersion: 2
-        x: 217
-        y: 25
-        width: 22
-        height: 23
+        x: 216
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,9 +324,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 0
-        width: 122
-        height: 48
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,9 +344,9 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_11
       rect:
         serializedVersion: 2
-        x: 360
-        y: 24
-        width: 48
+        x: 264
+        y: 72
+        width: 24
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -365,10 +365,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_12
       rect:
         serializedVersion: 2
-        x: 408
-        y: 24
-        width: 48
-        height: 17
+        x: 288
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +386,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_13
       rect:
         serializedVersion: 2
-        x: 458
-        y: 25
-        width: 19
-        height: 7
+        x: 312
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,10 +407,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 336
+        y: 72
         width: 24
-        height: 23
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,10 +428,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_15
       rect:
         serializedVersion: 2
-        x: 25
-        y: 1
-        width: 22
-        height: 23
+        x: 360
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,10 +449,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_16
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
+        x: 384
+        y: 72
         width: 24
-        height: 23
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +470,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_17
       rect:
         serializedVersion: 2
-        x: 73
-        y: 1
-        width: 22
-        height: 23
+        x: 408
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,10 +491,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_18
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
+        x: 432
+        y: 72
         width: 24
-        height: 23
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +512,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_19
       rect:
         serializedVersion: 2
-        x: 121
-        y: 1
-        width: 22
-        height: 23
+        x: 456
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,10 +533,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_20
       rect:
         serializedVersion: 2
-        x: 144
-        y: 0
+        x: 0
+        y: 48
         width: 24
-        height: 23
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,10 +554,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_21
       rect:
         serializedVersion: 2
-        x: 169
-        y: 1
-        width: 22
-        height: 23
+        x: 24
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,10 +575,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_22
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
+        x: 48
+        y: 48
         width: 24
-        height: 23
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,10 +596,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_23
       rect:
         serializedVersion: 2
-        x: 217
-        y: 1
-        width: 22
-        height: 23
+        x: 72
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,10 +617,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_24
       rect:
         serializedVersion: 2
-        x: 360
-        y: 0
-        width: 48
-        height: 20
+        x: 96
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -638,10 +638,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_25
       rect:
         serializedVersion: 2
-        x: 408
-        y: 0
-        width: 48
-        height: 15
+        x: 120
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -659,10 +659,10 @@ TextureImporter:
       name: Jack_o_legs_Bomb_cycle-Sheet_26
       rect:
         serializedVersion: 2
-        x: 458
-        y: 1
-        width: 19
-        height: 8
+        x: 144
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -672,6 +672,1119 @@ TextureImporter:
       bones: []
       spriteID: a9df2eb5f036ce04289d45f25d6275d5
       internalID: 188093610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb877b487d571446a9b3caed4fcb498
+      internalID: 1290915574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09de4b4f7c99fdf459d98df0a9968a95
+      internalID: 234647868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebbbd290ace5b1438aea3013f7f8d69
+      internalID: 256481340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca06fa63e4599e4fb9e7721c227f7e4
+      internalID: 675254832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7287b4ab9b78b664d81672bc550ebe2f
+      internalID: -1219542850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a11b806a7aec84abee6a8828cf7fa2
+      internalID: 1121867268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c529f051d014c9d46a6b4f50d1cfc7c1
+      internalID: -307387118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c27f0f891fd8048aeedcf4f676cd78
+      internalID: -1690258574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ec9955577680249975f2bc854d8036
+      internalID: 1612454742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1fed9799a0da042b479cc0b9bc3047
+      internalID: 1981270973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada541813dfe8ca43bd971cf7e37150c
+      internalID: 221050625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8450d1d602f01340881363a6a58c727
+      internalID: -1175235935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac8120d7533e654785931d5d276b4bd
+      internalID: 1630338607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325117ca8fdb16f45911a27a793de312
+      internalID: -655653895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065b1781cdca2d34fa718cbeac291ab9
+      internalID: -219132147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777d8b2c307252447b0ab7b9576ee3cd
+      internalID: 1022224166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d26e945b76eaf247920a9f7b046df17
+      internalID: -1736523511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a52d30d5202ea4da8c8cc673b23480
+      internalID: -1825621521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62091a41e6dcfbc43bb1427f452560de
+      internalID: 1010258755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c37018ebd6335469f2d3e72e042a77
+      internalID: -1691237522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b963278767d44c4ebb40d8a2b40ef31
+      internalID: 1096318376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e9dae4396342b408341ba28c33c44c
+      internalID: 888717179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced3483399da8a14f9f42968152bb2b8
+      internalID: -1182554505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc83a5ac2f7f9a458e90f239135f4e1
+      internalID: -1876534340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2370cc784c5422546a2bfe35a2e4bf05
+      internalID: -1448354502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1f97a647c98d747988899833dfe724
+      internalID: -266240597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e455efa0d586c4092cfd50ef8eab05
+      internalID: 1481402587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c17a7dc52be2774587bbc30527a42ea
+      internalID: 393385932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28a645912497d343a96315a4ddd096b
+      internalID: -1047750688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f5346d5e0c6e04d8a8e98e12b5188a
+      internalID: -1404989675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a860fbf479631846ae507ad495c97ca
+      internalID: -626245165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6745a1d5dbc839549bdacafc31aa1914
+      internalID: 739054549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd7da9d2640fcb468264933e6a927ef
+      internalID: 1786224178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f239e6d3c889f549926ce4924c37420
+      internalID: 577485577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba3a37747f70294a89a7ecd5393b8f4
+      internalID: 749038091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45756a4571d4e3459033dbec156eb2b
+      internalID: -1215277412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4811a7f2aa7e9304c9fcb4309f04bc93
+      internalID: -2044373077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c098718d14cea1429e54e4c09cd0bd4
+      internalID: 329816663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da019a811eb5dfb46962a154baa5abd8
+      internalID: 1737001261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71597977e0929f489ebe0dd4bf3699d
+      internalID: 1987463845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d16e05694b15894ea0fbe1647fd4fb9
+      internalID: -332474818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca177c1a0e8a6f643bf056f6cc499a76
+      internalID: -1659059489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c3862278ceb634a8e7c2d5f1d77386
+      internalID: -690762502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580eb4ff18c2faa4d9990203f4a907ea
+      internalID: 2029664374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8a48439f8ca4a41a06828c6296cd3c
+      internalID: 807255764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be02dbb219df1984f8342221ae5a9825
+      internalID: 729531967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bdfeb2f489037418b8d756cb64efe5
+      internalID: 664821259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c77d9a5dcd4eb247b2e927abeccfc8d
+      internalID: 615864698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965cff0ec692c0943a3c4b8a0e9eadfc
+      internalID: -1414784402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8fea29dfc656c49889523cc87a2915
+      internalID: -639979871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039af6741fc3fca429c9aeac4c3b156a
+      internalID: -1949065641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39335fb697cf225439c0568c872e7818
+      internalID: 86970265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jack_o_legs_Bomb_cycle-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa1a4dc276d2784994931771d428099
+      internalID: -1167545274
       vertices: []
       indices: 
       edges: []
@@ -707,11 +1820,64 @@ TextureImporter:
       Jack_o_legs_Bomb_cycle-Sheet_24: -2024068705
       Jack_o_legs_Bomb_cycle-Sheet_25: 567036898
       Jack_o_legs_Bomb_cycle-Sheet_26: 188093610
+      Jack_o_legs_Bomb_cycle-Sheet_27: 1290915574
+      Jack_o_legs_Bomb_cycle-Sheet_28: 234647868
+      Jack_o_legs_Bomb_cycle-Sheet_29: 256481340
       Jack_o_legs_Bomb_cycle-Sheet_3: -494312161
+      Jack_o_legs_Bomb_cycle-Sheet_30: 675254832
+      Jack_o_legs_Bomb_cycle-Sheet_31: -1219542850
+      Jack_o_legs_Bomb_cycle-Sheet_32: 1121867268
+      Jack_o_legs_Bomb_cycle-Sheet_33: -307387118
+      Jack_o_legs_Bomb_cycle-Sheet_34: -1690258574
+      Jack_o_legs_Bomb_cycle-Sheet_35: 1612454742
+      Jack_o_legs_Bomb_cycle-Sheet_36: 1981270973
+      Jack_o_legs_Bomb_cycle-Sheet_37: 221050625
+      Jack_o_legs_Bomb_cycle-Sheet_38: -1175235935
+      Jack_o_legs_Bomb_cycle-Sheet_39: 1630338607
       Jack_o_legs_Bomb_cycle-Sheet_4: -542195765
+      Jack_o_legs_Bomb_cycle-Sheet_40: -655653895
+      Jack_o_legs_Bomb_cycle-Sheet_41: -219132147
+      Jack_o_legs_Bomb_cycle-Sheet_42: 1022224166
+      Jack_o_legs_Bomb_cycle-Sheet_43: -1736523511
+      Jack_o_legs_Bomb_cycle-Sheet_44: -1825621521
+      Jack_o_legs_Bomb_cycle-Sheet_45: 1010258755
+      Jack_o_legs_Bomb_cycle-Sheet_46: -1691237522
+      Jack_o_legs_Bomb_cycle-Sheet_47: 1096318376
+      Jack_o_legs_Bomb_cycle-Sheet_48: 888717179
+      Jack_o_legs_Bomb_cycle-Sheet_49: -1182554505
       Jack_o_legs_Bomb_cycle-Sheet_5: -2040820752
+      Jack_o_legs_Bomb_cycle-Sheet_50: -1876534340
+      Jack_o_legs_Bomb_cycle-Sheet_51: -1448354502
+      Jack_o_legs_Bomb_cycle-Sheet_52: -266240597
+      Jack_o_legs_Bomb_cycle-Sheet_53: 1481402587
+      Jack_o_legs_Bomb_cycle-Sheet_54: 393385932
+      Jack_o_legs_Bomb_cycle-Sheet_55: -1047750688
+      Jack_o_legs_Bomb_cycle-Sheet_56: -1404989675
+      Jack_o_legs_Bomb_cycle-Sheet_57: -626245165
+      Jack_o_legs_Bomb_cycle-Sheet_58: 739054549
+      Jack_o_legs_Bomb_cycle-Sheet_59: 1786224178
       Jack_o_legs_Bomb_cycle-Sheet_6: 2117013050
+      Jack_o_legs_Bomb_cycle-Sheet_60: 577485577
+      Jack_o_legs_Bomb_cycle-Sheet_61: 749038091
+      Jack_o_legs_Bomb_cycle-Sheet_62: -1215277412
+      Jack_o_legs_Bomb_cycle-Sheet_63: -2044373077
+      Jack_o_legs_Bomb_cycle-Sheet_64: 329816663
+      Jack_o_legs_Bomb_cycle-Sheet_65: 1737001261
+      Jack_o_legs_Bomb_cycle-Sheet_66: 1987463845
+      Jack_o_legs_Bomb_cycle-Sheet_67: -332474818
+      Jack_o_legs_Bomb_cycle-Sheet_68: -1659059489
+      Jack_o_legs_Bomb_cycle-Sheet_69: -690762502
       Jack_o_legs_Bomb_cycle-Sheet_7: -381633584
+      Jack_o_legs_Bomb_cycle-Sheet_70: 2029664374
+      Jack_o_legs_Bomb_cycle-Sheet_71: 807255764
+      Jack_o_legs_Bomb_cycle-Sheet_72: 729531967
+      Jack_o_legs_Bomb_cycle-Sheet_73: 664821259
+      Jack_o_legs_Bomb_cycle-Sheet_74: 615864698
+      Jack_o_legs_Bomb_cycle-Sheet_75: -1414784402
+      Jack_o_legs_Bomb_cycle-Sheet_76: -639979871
+      Jack_o_legs_Bomb_cycle-Sheet_77: -1949065641
+      Jack_o_legs_Bomb_cycle-Sheet_78: 86970265
+      Jack_o_legs_Bomb_cycle-Sheet_79: -1167545274
       Jack_o_legs_Bomb_cycle-Sheet_8: 82075446
       Jack_o_legs_Bomb_cycle-Sheet_9: -142680915
   mipmapLimitGroupName: 
