@@ -751,7 +751,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1.4
+      value: 0.4
       mode: 0
       spread: 0
       speed:
@@ -1426,8 +1426,8 @@ ParticleSystem:
         m_NumAlphaKeys: 2
   UVModule:
     serializedVersion: 2
-    enabled: 0
-    mode: 0
+    enabled: 1
+    mode: 1
     timeMode: 0
     fps: 30
     frameOverTime:
@@ -1545,7 +1545,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: -1350027656, guid: 559af236f60e07d4f9ae48bcf8a5bf1a, type: 3}
+    - sprite: {fileID: 21300000, guid: 68511bd40251168469daff25eac6732e, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
