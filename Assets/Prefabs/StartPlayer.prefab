@@ -177,14 +177,13 @@ GameObject:
   - component: {fileID: 3254168813415799755}
   - component: {fileID: 1884787048296677974}
   - component: {fileID: 3530598395698625338}
-  - component: {fileID: 9002402424158753902}
   - component: {fileID: 3724579147159136454}
   - component: {fileID: 6413783940083993384}
   - component: {fileID: 8178203490189419713}
   - component: {fileID: 8938029395188838084}
   - component: {fileID: 178302560327681390}
   m_Layer: 0
-  m_Name: Player
+  m_Name: StartPlayer
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -290,25 +289,6 @@ MonoBehaviour:
   token: {fileID: 0}
   tokentext: {fileID: 0}
   highscoretext: {fileID: 0}
---- !u!114 &9002402424158753902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3840494896629583009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a736932feb60777499658a5032838bea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHealth: 3
-  enemyDamage: 1
-  screenDelayTime: 1
-  hearts:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!50 &3724579147159136454
 Rigidbody2D:
   serializedVersion: 4

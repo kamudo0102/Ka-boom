@@ -12,9 +12,17 @@ public class Scenehandler : MonoBehaviour
     [SerializeField] Image mouse;
 
     bool isImageDisplay = false;
-    
 
-    
+    [SerializeField]Canvas menusCanvas;
+
+    [SerializeField] GameObject player;
+
+    private void Start()
+    {
+
+      //player = GetComponent<GameObject>();
+      //enemy = GameObject.FindGameObjectWithTag("Enemy");
+    }
 
     public void PlayGame()
     {
@@ -26,6 +34,8 @@ public class Scenehandler : MonoBehaviour
         if (isImageDisplay == false)
         {
             keyboard.enabled = true; mouse.enabled = true;
+            menusCanvas.enabled = false;
+            Instantiate(player, new Vector2(0,-3), transform.rotation);
             isImageDisplay = true;  
         }
         else if (isImageDisplay == true)
