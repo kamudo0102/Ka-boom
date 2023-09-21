@@ -8,8 +8,8 @@ using UnityEngine.UI;
 public class Scenehandler : MonoBehaviour
 {
 
-    [SerializeField] Image keyboard;
-    [SerializeField] Image mouse;
+    [SerializeField] GameObject keyboard;
+    [SerializeField] GameObject mouse;
 
     bool isImageDisplay = false;
 
@@ -19,9 +19,9 @@ public class Scenehandler : MonoBehaviour
 
     private void Start()
     {
-
-      //player = GetComponent<GameObject>();
-      //enemy = GameObject.FindGameObjectWithTag("Enemy");
+        keyboard.SetActive(false); keyboard.SetActive(false);
+        //player = GetComponent<GameObject>();
+        //enemy = GameObject.FindGameObjectWithTag("Enemy");
     }
 
     public void PlayGame()
@@ -33,14 +33,14 @@ public class Scenehandler : MonoBehaviour
     {
         if (isImageDisplay == false)
         {
-            keyboard.enabled = true; mouse.enabled = true;
+            keyboard.SetActive(true); mouse.SetActive(true);
             menusCanvas.enabled = false;
             Instantiate(player, new Vector2(0,-3), transform.rotation);
             isImageDisplay = true;  
         }
         else if (isImageDisplay == true)
         {
-            keyboard.enabled = false; mouse.enabled = false;
+            keyboard.SetActive(false); keyboard.SetActive(false);
             isImageDisplay = false;
         }
     }
