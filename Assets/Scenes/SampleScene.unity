@@ -13395,7 +13395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8628592729014492512, guid: 5fab5a9d8093b414f9205c0d43e63fc0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.13
+      value: -15.35
       objectReference: {fileID: 0}
     - target: {fileID: 8628592729014492512, guid: 5fab5a9d8093b414f9205c0d43e63fc0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -20699,7 +20699,7 @@ GameObject:
   - component: {fileID: 1694809906}
   m_Layer: 3
   m_Name: Fence_tilemap
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21438,7 +21438,7 @@ GameObject:
   - component: {fileID: 1793190558}
   m_Layer: 0
   m_Name: Grid
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
