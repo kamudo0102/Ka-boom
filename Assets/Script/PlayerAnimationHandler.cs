@@ -17,7 +17,7 @@ public class PlayerAnimationHandler : MonoBehaviour
     private void Update()
     {
         mouseDirection = (Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position)).normalized;
-        animator.SetFloat("Velocity", Mathf.Abs(rb.velocity.x + rb.velocity.y));
+        animator.SetFloat("Velocity", Mathf.Abs(rb.velocity.x) + Mathf.Abs(rb.velocity.y));
 
         if (mouseDirection.y > Mathf.Abs(mouseDirection.x))
         {
