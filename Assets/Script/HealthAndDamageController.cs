@@ -87,6 +87,6 @@ public class HealthAndDamageController : MonoBehaviour
 
     public void ReloadScene()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(0);
     }
 }
