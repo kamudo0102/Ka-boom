@@ -1,6 +1,7 @@
 using Pathfinding;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -9,6 +10,8 @@ public class Enemy : MonoBehaviour
 
     private Rigidbody2D rb;
     public GameObject token;
+
+    private bool dead = false;
 
     private void Start()
     {
@@ -20,7 +23,7 @@ public class Enemy : MonoBehaviour
     {
         health--;
 
-        if (health <= 0)
+        if (health <= 0 && !dead)
             OnDeath();
 
         GetComponent<Animator>().SetTrigger("Hurt");
@@ -34,9 +37,21 @@ public class Enemy : MonoBehaviour
 
     public virtual void OnDeath()
     {
-        Destroy(gameObject);
+        GetComponent<Animator>().SetTrigger("Dead");
         Instantiate(token, transform.position, transform.rotation);
         EnemySpawner.Instance.enemiesKilled++;
+
+    }
+
+    public void DestroyThis()
+    {
+        Destroy(gameObject);
+    }
+
+    public void SetDead()
+    {
+        GetComponent<Animator>().SetBool("IsDead", true);
+        dead = true;
     }
 
     IEnumerator Halt()
