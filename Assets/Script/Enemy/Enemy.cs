@@ -35,6 +35,7 @@ public class Enemy : MonoBehaviour
             OnDeath();
 
         GetComponent<Animator>().SetTrigger("Hurt");
+        SoundManager.PlaySound(SoundManager.Sound.enemyHurt);
     }
 
     public virtual void GetKnockBacked(Vector2 direction, float power)
@@ -44,6 +45,7 @@ public class Enemy : MonoBehaviour
 
     public virtual void OnDeath()
     {
+        SoundManager.PlaySound(SoundManager.Sound.enemyDeath);
         GetComponent<Animator>().SetTrigger("Dead");
         Instantiate(token, transform.position, transform.rotation);
         EnemySpawner.Instance.enemiesKilled++;

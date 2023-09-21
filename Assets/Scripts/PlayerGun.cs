@@ -42,6 +42,7 @@ public class PlayerGun : MonoBehaviour
 
         if (Input.GetMouseButton(0) && timer > fireRate)
         {
+            SoundManager.PlaySound(SoundManager.Sound.Gunshot);
             timer = 0;
             Bullet bullet = Instantiate(bulletPrefab, gun.position, transform.rotation).GetComponent<Bullet>();
 
