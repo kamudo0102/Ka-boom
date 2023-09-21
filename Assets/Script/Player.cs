@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -64,19 +63,6 @@ public class Player : MonoBehaviour
         rb2D.velocity = velocity;
 
     }
-
-    public void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Enemy"))
-        {
-            Debug.Log("");
-        }
-      
-    }
-
-  
-
-    
 
     public void Die()
     {
