@@ -3,9 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEditor.SceneManagement;
 using UnityEngine.SceneManagement;
-
 public class HealthAndDamageController : MonoBehaviour
 {
     
@@ -38,6 +36,7 @@ public class HealthAndDamageController : MonoBehaviour
             if (playerHealth == 0 && !dead)
             {
                 dead = true;
+                SoundManager.PlaySound(SoundManager.Sound.playerDeath);
                 GetComponent<Animator>().SetTrigger("Dead");
                 GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             }
@@ -56,6 +55,7 @@ public class HealthAndDamageController : MonoBehaviour
         StartCoroutine("FreezeFrame");
         GetComponent<Animator>().SetTrigger("Hurt");
         UpdateHealth();
+        SoundManager.PlaySound(SoundManager.Sound.playerHurt);
     }
 
     // Update is called once per frame

@@ -35,16 +35,17 @@ public class Enemy : MonoBehaviour
             OnDeath();
 
         GetComponent<Animator>().SetTrigger("Hurt");
+        SoundManager.PlaySound(SoundManager.Sound.enemyHurt);
     }
 
     public virtual void GetKnockBacked(Vector2 direction, float power)
     {
-        StartCoroutine("Halt");
         rb.AddForce(direction * power, ForceMode2D.Impulse);
     }
 
     public virtual void OnDeath()
     {
+        SoundManager.PlaySound(SoundManager.Sound.enemyDeath);
         GetComponent<Animator>().SetTrigger("Dead");
         Instantiate(token, transform.position, transform.rotation);
         EnemySpawner.Instance.enemiesKilled++;
@@ -59,13 +60,5 @@ public class Enemy : MonoBehaviour
     {
         GetComponent<Animator>().SetBool("IsDead", true);
         dead = true;
-    }
-
-    IEnumerator Halt()
-    {
-        GetComponent<AIPath>().enabled = false;
-        rb.velocity = Vector2.zero;
-        yield return new WaitForSeconds(1f);
-        GetComponent<AIPath>().enabled = true;
     }
 }

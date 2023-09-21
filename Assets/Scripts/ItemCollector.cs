@@ -38,7 +38,7 @@ public class ItemCollector : MonoBehaviour
 
             currentScore++;
   
-            tokentext.text = "Score: " + currentScore;
+            tokentext.text = currentScore.ToString();
         }
     }
 
