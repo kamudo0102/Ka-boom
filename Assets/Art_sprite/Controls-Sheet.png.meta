@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4c70ca7bd3f5aa249b7a5a5ae0d780f8
+guid: 47e2400f0d84cdf4db6b73159eb5ada9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,11 +44,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 24
+  spritePixelsToUnits: 168
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,30 +106,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jacko_o_lanterns_0
+      name: Controls-Sheet_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 312
-        width: 24
-        height: 24
+        x: 0
+        y: 96
+        width: 168
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5398a6819c840174080e79bc6420d822
-      internalID: -1207701890
+      spriteID: eb95151b2743c194cb36773521c63b75
+      internalID: -1490878966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko_o_lanterns_1
+      name: Controls-Sheet_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 312
-        width: 24
-        height: 24
+        x: 168
+        y: 96
+        width: 168
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29d8e50e52928dc4e8b6ed8093a81008
-      internalID: -1497469680
+      spriteID: 0a49c28f74e177d4e9c13494509d9eba
+      internalID: 286892900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko_o_lanterns_2
+      name: Controls-Sheet_2
       rect:
         serializedVersion: 2
-        x: 120
-        y: 312
-        width: 24
-        height: 24
+        x: 336
+        y: 96
+        width: 168
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d62bc0fa0eeb08446af3422a7e413984
-      internalID: -1339435728
+      spriteID: 5244fc9def5c8c749a30927e1281512e
+      internalID: -1272649005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko_o_lanterns_3
+      name: Controls-Sheet_3
       rect:
         serializedVersion: 2
-        x: 144
-        y: 312
-        width: 24
-        height: 24
+        x: 0
+        y: 0
+        width: 168
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50773041ac6557f4b8eb1c8db2dc1d6c
-      internalID: -1949825377
+      spriteID: 239222ee41ee7ca4fba50519194c6890
+      internalID: 1754671476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko_o_lanterns_4
+      name: Controls-Sheet_4
       rect:
         serializedVersion: 2
-        x: 24
-        y: 288
-        width: 24
-        height: 24
+        x: 168
+        y: 0
+        width: 168
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80caed2035b37c2478727e6353ffcb14
-      internalID: -273289555
+      spriteID: f17aec686587c384ca989ad11806ea04
+      internalID: -1760076856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko_o_lanterns_5
+      name: Controls-Sheet_5
       rect:
         serializedVersion: 2
-        x: 48
-        y: 288
-        width: 24
-        height: 24
+        x: 336
+        y: 0
+        width: 168
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,50 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c271a5e71f41b46479062a7361887611
-      internalID: -1111120016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jacko_o_lanterns_6
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 288
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 481f66f92620ccb44a3588e026096d38
-      internalID: -1182031280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jacko_o_lanterns_7
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 288
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aedde761831c881479ed282fe96db82c
-      internalID: -836473121
+      spriteID: d423183abc95854489d63090d2f77ea5
+      internalID: 1386348055
       vertices: []
       indices: 
       edges: []
@@ -301,14 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jacko_o_lanterns_0: -1207701890
-      Jacko_o_lanterns_1: -1497469680
-      Jacko_o_lanterns_2: -1339435728
-      Jacko_o_lanterns_3: -1949825377
-      Jacko_o_lanterns_4: -273289555
-      Jacko_o_lanterns_5: -1111120016
-      Jacko_o_lanterns_6: -1182031280
-      Jacko_o_lanterns_7: -836473121
+      Controls-Sheet_0: -1490878966
+      Controls-Sheet_1: 286892900
+      Controls-Sheet_2: -1272649005
+      Controls-Sheet_3: 1754671476
+      Controls-Sheet_4: -1760076856
+      Controls-Sheet_5: 1386348055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
