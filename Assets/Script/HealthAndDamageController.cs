@@ -14,6 +14,7 @@ public class HealthAndDamageController : MonoBehaviour
     [SerializeField]public float screenDelayTime = 1f;
     [SerializeField]public Image[] hearts;
 
+    private bool dead = false;
    
 
     private CinemachineImpulseSource screenShaker;
@@ -28,16 +29,25 @@ public class HealthAndDamageController : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy"))
+        if (collision.CompareTag("Enemy") && !dead)
         {
             Damage();
 
             screenShaker.GenerateImpulse((collision.transform.position - transform.position).normalized * 0.1f);
+
+            if (playerHealth == 0 && !dead)
+            {
+                dead = true;
+                GetComponent<Animator>().SetTrigger("Dead");
+                GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            }
         }
-        if (playerHealth == 0)
-        {
-            ReloadScene();
-        }
+    }
+
+    private void Update()
+    {
+        if (dead)
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
     }
 
     void Damage()
