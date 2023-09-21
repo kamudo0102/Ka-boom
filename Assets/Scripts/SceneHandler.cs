@@ -10,6 +10,9 @@ public class Scenehandler : MonoBehaviour
 
     [SerializeField] GameObject keyboard;
     [SerializeField] GameObject mouse;
+    [SerializeField] GameObject scareCrow;
+    [SerializeField] GameObject enemy;
+    
 
     bool isImageDisplay = false;
 
@@ -19,7 +22,8 @@ public class Scenehandler : MonoBehaviour
 
     private void Start()
     {
-        keyboard.SetActive(false); keyboard.SetActive(false);
+      
+       // keyboard.SetActive(false); mouse.SetActive(false);
         //player = GetComponent<GameObject>();
         //enemy = GameObject.FindGameObjectWithTag("Enemy");
     }
@@ -34,13 +38,15 @@ public class Scenehandler : MonoBehaviour
         if (isImageDisplay == false)
         {
             keyboard.SetActive(true); mouse.SetActive(true);
+            enemy.SetActive(true);
+            scareCrow.SetActive(false);
             menusCanvas.enabled = false;
             Instantiate(player, new Vector2(0,-3), transform.rotation);
             isImageDisplay = true;  
         }
         else if (isImageDisplay == true)
         {
-            keyboard.SetActive(false); keyboard.SetActive(false);
+            keyboard.SetActive(false); mouse.SetActive(false);
             isImageDisplay = false;
         }
     }
