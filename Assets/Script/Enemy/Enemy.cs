@@ -19,6 +19,14 @@ public class Enemy : MonoBehaviour
         GetComponent<AIDestinationSetter>().target = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
+    private void Update()
+    {
+        if (dead)
+        {
+            rb.velocity = Vector2.zero;
+        }
+    }
+
     public virtual void TakeDamage()
     {
         health--;
