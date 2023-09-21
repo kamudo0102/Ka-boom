@@ -12,8 +12,10 @@ public class ScoreScript : MonoBehaviour
 
     void Start()
     {
-        currentScoreText.text = PlayerPrefs.GetInt("CurrentScore").ToString();
-        highScoreText.text = PlayerPrefs.GetInt("Highscore",0).ToString();
+        if (PlayerPrefs.HasKey("Highscore"))
+            highScoreText.text = PlayerPrefs.GetInt("Highscore", 0).ToString();
+        if (PlayerPrefs.HasKey("CurrentScore"))
+            currentScoreText.text = PlayerPrefs.GetInt("CurrentScore").ToString();
 
     }
 

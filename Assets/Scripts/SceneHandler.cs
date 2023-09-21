@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -12,7 +13,7 @@ public class Scenehandler : MonoBehaviour
     [SerializeField] GameObject mouse;
     [SerializeField] GameObject scareCrow;
     [SerializeField] GameObject enemy;
-    
+    [SerializeField] TextMeshProUGUI highScoreText;
 
     bool isImageDisplay = false;
 
@@ -22,10 +23,9 @@ public class Scenehandler : MonoBehaviour
 
     private void Start()
     {
-      
-       // keyboard.SetActive(false); mouse.SetActive(false);
-        //player = GetComponent<GameObject>();
-        //enemy = GameObject.FindGameObjectWithTag("Enemy");
+        if (PlayerPrefs.HasKey("Highscore"))
+            highScoreText.text = "Highscore: " + PlayerPrefs.GetInt("Highscore", 0).ToString();
+        
     }
 
     public void PlayGame()
