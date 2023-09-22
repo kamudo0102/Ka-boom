@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 24e8c4f3ecfb19b4aaa71c732a3df2e3
+guid: 7cc7545ed34ec964687dfbb69114ecff
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -108,49 +108,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: pig_animation_idle_0
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 240
-        width: 22
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7f005649036b04499cb27d0fd4c2eac
-      internalID: -987763087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pig_animation_idle_1
-      rect:
-        serializedVersion: 2
-        x: 457
-        y: 240
-        width: 21
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 492a5af34c260ba4da7b5c49bc90dc80
-      internalID: -1606158526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -161,9 +119,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      pig_animation_idle_0: -987763087
-      pig_animation_idle_1: -1606158526
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
