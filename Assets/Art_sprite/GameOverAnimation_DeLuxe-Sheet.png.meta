@@ -907,90 +907,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: GameOverAnimation_DeLuxe-Sheet_38
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 0
-        width: 400
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50221f572ade7594f8d4793159b492e2
-      internalID: -345665539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GameOverAnimation_DeLuxe-Sheet_39
-      rect:
-        serializedVersion: 2
-        x: 1600
-        y: 0
-        width: 400
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 927f5096dc2de5a46b755bcf01d22498
-      internalID: 1056819046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GameOverAnimation_DeLuxe-Sheet_40
-      rect:
-        serializedVersion: 2
-        x: 2000
-        y: 0
-        width: 400
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de4c9b7562f76064e871104e6a91661e
-      internalID: -882380241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GameOverAnimation_DeLuxe-Sheet_41
-      rect:
-        serializedVersion: 2
-        x: 2400
-        y: 0
-        width: 400
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bec397c31c54b9547bc3891107cb6e39
-      internalID: 22336541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1034,11 +950,7 @@ TextureImporter:
       GameOverAnimation_DeLuxe-Sheet_35: 134419386
       GameOverAnimation_DeLuxe-Sheet_36: -34320439
       GameOverAnimation_DeLuxe-Sheet_37: -729306187
-      GameOverAnimation_DeLuxe-Sheet_38: -345665539
-      GameOverAnimation_DeLuxe-Sheet_39: 1056819046
       GameOverAnimation_DeLuxe-Sheet_4: -243719718
-      GameOverAnimation_DeLuxe-Sheet_40: -882380241
-      GameOverAnimation_DeLuxe-Sheet_41: 22336541
       GameOverAnimation_DeLuxe-Sheet_5: -1468946181
       GameOverAnimation_DeLuxe-Sheet_6: 708498164
       GameOverAnimation_DeLuxe-Sheet_7: -2087391190
