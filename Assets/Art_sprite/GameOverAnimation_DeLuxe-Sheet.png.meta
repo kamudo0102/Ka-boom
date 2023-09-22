@@ -920,6 +920,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: GameOverAnimation_DeLuxe-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 400
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0182f549c9cbc02458219810d0aa2084
+      internalID: 456018696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverAnimation_DeLuxe-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 400
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2503daf67a09a419136f04eac245df
+      internalID: 453388874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverAnimation_DeLuxe-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 400
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d230d7c3a2f874aa212805049d3baf
+      internalID: 1487760847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -963,7 +1026,10 @@ TextureImporter:
       GameOverAnimation_DeLuxe-Sheet_35: 134419386
       GameOverAnimation_DeLuxe-Sheet_36: -34320439
       GameOverAnimation_DeLuxe-Sheet_37: -729306187
+      GameOverAnimation_DeLuxe-Sheet_38: 456018696
+      GameOverAnimation_DeLuxe-Sheet_39: 453388874
       GameOverAnimation_DeLuxe-Sheet_4: -243719718
+      GameOverAnimation_DeLuxe-Sheet_40: 1487760847
       GameOverAnimation_DeLuxe-Sheet_5: -1468946181
       GameOverAnimation_DeLuxe-Sheet_6: 708498164
       GameOverAnimation_DeLuxe-Sheet_7: -2087391190
