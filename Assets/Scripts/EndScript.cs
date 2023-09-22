@@ -11,7 +11,7 @@ public class EndScript : MonoBehaviour
     void Start()
     {
         if (PlayerPrefs.HasKey("CurrentScore"))
-            endCurrentScore.text = "Current Score: " + PlayerPrefs.GetInt("CurrentScore").ToString();
+            endCurrentScore.text = "Score: " + PlayerPrefs.GetInt("CurrentScore").ToString();
 
 
     }

@@ -50,9 +50,6 @@ public class EnemySpawner : MonoBehaviour
         timeBetweenWaves = 5 - enemiesKilled * 0.01f;
         amountPerWave = 2 + Mathf.FloorToInt(enemiesKilled / 20);
 
-        if (enemiesSpawned % 18 == 0 && enemiesSpawned != 0)
-            amountPerWave = spawnPositions.Length;
-
         if (amountPerWave > spawnPositions.Length)
             amountPerWave = spawnPositions.Length;
         if (timeBetweenWaves < 0.5f)
