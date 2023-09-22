@@ -42,7 +42,7 @@ public class Scenehandler : MonoBehaviour
             enemy.SetActive(true);
             scareCrow.SetActive(false);
             menusCanvas.enabled = false;
-            Instantiate(player, new Vector2(0,-3.5f), transform.rotation);
+            Instantiate(player, new Vector2(0,-2f), transform.rotation);
             isImageDisplay = true;  
         }
         else if (isImageDisplay == true)
