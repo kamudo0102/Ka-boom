@@ -22,24 +22,27 @@ public class PlayerGun : MonoBehaviour
         Vector3 worldMousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
         Vector2 direction = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
-        transform.right = direction * transform.localScale.x;
 
-        // Check if the mouse is on the left side of the GameObject.
-        if (worldMousePosition.x < player.transform.position.x)
+        if (Mathf.Abs(player.transform.position.x - worldMousePosition.x) > 0.1f)
         {
-            // Change the scale of the GameObject to -1 on the x-axis.
-            Vector3 newScale = transform.localScale;
-            newScale.x = -1f;
-            transform.localScale = newScale;
-        }
-        else
-        {
-            // Reset the scale to its original state (1 on the x-axis).
-            Vector3 newScale = transform.localScale;
-            newScale.x = 1f;
-            transform.localScale = newScale;
-        }
+            transform.right = direction * transform.localScale.x;
 
+            // Check if the mouse is on the left side of the GameObject.
+            if (worldMousePosition.x < player.transform.position.x)
+            {
+                // Change the scale of the GameObject to -1 on the x-axis.
+                Vector3 newScale = transform.localScale;
+                newScale.x = -1f;
+                transform.localScale = newScale;
+            }
+            else
+            {
+                // Reset the scale to its original state (1 on the x-axis).
+                Vector3 newScale = transform.localScale;
+                newScale.x = 1f;
+                transform.localScale = newScale;
+            }
+        }
         if (Input.GetMouseButton(0) && timer > fireRate)
         {
             SoundManager.PlaySound(SoundManager.Sound.Gunshot);
