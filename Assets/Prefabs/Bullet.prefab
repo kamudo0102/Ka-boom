@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94539a375263bd4b93fbf8ae28c2258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 10
   direction: {x: 0, y: 0}
   explosionPrefab: {fileID: 463712364975545936, guid: 130e659bd7df9614eae86319f9d8f67f, type: 3}
 --- !u!50 &5441595650414231784

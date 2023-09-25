@@ -54,17 +54,17 @@ public class PlayerGun : MonoBehaviour
                 transform.localScale = newScale;
             }
         }
+
         if (Input.GetMouseButton(0) && timer > fireRate)
         {
-            SoundManager.PlaySound(SoundManager.Sound.Gunshot);
             timer = 0;
             Bullet bullet = Instantiate(bulletPrefab, gun.position, transform.rotation).GetComponent<Bullet>();
 
             bullet.speed += transform.parent.GetComponent<Rigidbody2D>().velocity.magnitude;
-
             bullet.direction = direction.normalized;
             bullet.transform.localScale = -transform.localScale;
 
+            SoundManager.PlaySound(SoundManager.Sound.Gunshot);
             screenShaker.GenerateImpulse(direction.normalized * 0.005f);
             muzzleFlash.SetTrigger("Flash");
         }
