@@ -1,3 +1,4 @@
+using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,13 @@ public class PlayerGun : MonoBehaviour
     public Transform gun;
     float timer;
     public float fireRate = 0.1f;
+
+    private CinemachineImpulseSource screenShaker;
+
+    private void Start()
+    {
+        screenShaker = FindAnyObjectByType<CinemachineImpulseSource>();
+    }
 
     void Update()
     {
@@ -53,6 +61,8 @@ public class PlayerGun : MonoBehaviour
 
             bullet.direction = direction.normalized;
             bullet.transform.localScale = -transform.localScale;
+
+            screenShaker.GenerateImpulse(direction.normalized * 0.005f);
         }
 
         timer += Time.deltaTime;
