@@ -11,10 +11,13 @@ public class PlayerGun : MonoBehaviour
     public GameObject player;
     public GameObject bulletPrefab;
     public Transform gun;
-    float timer;
     public float fireRate = 0.1f;
+    public Animator muzzleFlash;
 
+    private float timer;
     private CinemachineImpulseSource screenShaker;
+
+    const float DEADZONE = 0.15f;
 
     private void Start()
     {
@@ -31,7 +34,7 @@ public class PlayerGun : MonoBehaviour
 
         Vector2 direction = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
 
-        if (Mathf.Abs(player.transform.position.x - worldMousePosition.x) > 0.1f)
+        if (Mathf.Abs(player.transform.position.x - worldMousePosition.x) > DEADZONE)
         {
             transform.right = direction * transform.localScale.x;
 
@@ -63,6 +66,7 @@ public class PlayerGun : MonoBehaviour
             bullet.transform.localScale = -transform.localScale;
 
             screenShaker.GenerateImpulse(direction.normalized * 0.005f);
+            muzzleFlash.SetTrigger("Flash");
         }
 
         timer += Time.deltaTime;
