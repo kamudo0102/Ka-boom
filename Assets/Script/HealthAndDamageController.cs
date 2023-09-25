@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+
 public class HealthAndDamageController : MonoBehaviour
 {
     
@@ -17,12 +18,10 @@ public class HealthAndDamageController : MonoBehaviour
    
     private CinemachineImpulseSource screenShaker;
     
-    // Start is called before the first frame update
     void Start()
     {
         UpdateHealth();
         screenShaker = FindAnyObjectByType<CinemachineImpulseSource>();
-        
     }
 
     public void OnTriggerStay2D(Collider2D collision)
@@ -66,16 +65,13 @@ public class HealthAndDamageController : MonoBehaviour
         {
             if (i < playerHealth )
             {
-                hearts[i].enabled = true;
-                
+                hearts[i].enabled = true;               
             }
             else
             {
                 hearts[i].enabled = false;
             }
-
         } 
-       
     }
 
     IEnumerator FreezeFrame()
@@ -85,6 +81,7 @@ public class HealthAndDamageController : MonoBehaviour
         yield return new WaitForSecondsRealtime(0.2f);
         Time.timeScale = 1;
     }
+
     IEnumerator InvincibilityTime()
     {
         canTakeDamage = false;
