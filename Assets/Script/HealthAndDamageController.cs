@@ -4,30 +4,29 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+
 public class HealthAndDamageController : MonoBehaviour
 {
     
     public float playerHealth;
     public float enemyDamage;
-    [SerializeField]public float screenDelayTime = 1f;
-    [SerializeField]public Image[] hearts;
+    public float screenDelayTime = 1f;
+    public Image[] hearts;
 
     private bool dead = false;
+    private bool canTakeDamage = true;
    
-
     private CinemachineImpulseSource screenShaker;
     
-    // Start is called before the first frame update
     void Start()
     {
         UpdateHealth();
         screenShaker = FindAnyObjectByType<CinemachineImpulseSource>();
-        
     }
 
-    public void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy") && !dead)
+        if (collision.CompareTag("Enemy") && !dead && canTakeDamage)
         {
             Damage();
 
@@ -53,6 +52,7 @@ public class HealthAndDamageController : MonoBehaviour
     {
         playerHealth -= enemyDamage;
         StartCoroutine("FreezeFrame");
+        StartCoroutine("InvincibilityTime");
         GetComponent<Animator>().SetTrigger("Hurt");
         UpdateHealth();
         SoundManager.PlaySound(SoundManager.Sound.playerHurt);
@@ -65,16 +65,13 @@ public class HealthAndDamageController : MonoBehaviour
         {
             if (i < playerHealth )
             {
-                hearts[i].enabled = true;
-                
+                hearts[i].enabled = true;               
             }
             else
             {
                 hearts[i].enabled = false;
             }
-
         } 
-       
     }
 
     IEnumerator FreezeFrame()
@@ -83,6 +80,13 @@ public class HealthAndDamageController : MonoBehaviour
         Time.timeScale = 0;
         yield return new WaitForSecondsRealtime(0.2f);
         Time.timeScale = 1;
+    }
+
+    IEnumerator InvincibilityTime()
+    {
+        canTakeDamage = false;
+        yield return new WaitForSeconds(2f);
+        canTakeDamage = true;
     }
 
     public void ReloadScene()
