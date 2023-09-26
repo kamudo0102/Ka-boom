@@ -57,12 +57,14 @@ public class PlayerGun : MonoBehaviour
             timer = 0;
             Bullet bullet = Instantiate(bulletPrefab, gun.position, transform.rotation).GetComponent<Bullet>();
 
+            direction = direction.normalized + new Vector2(Random.Range(-0.1f, 0.1f), Random.Range(-0.1f, 0.1f));
+
             bullet.speed += transform.parent.GetComponent<Rigidbody2D>().velocity.magnitude;
             bullet.direction = direction.normalized;
             bullet.transform.localScale = -transform.localScale;
 
             SoundManager.PlaySound(SoundManager.Sound.Gunshot);
-            screenShaker.GenerateImpulse(direction.normalized * 0.005f);
+            screenShaker.GenerateImpulse(direction.normalized * 0.007f);
             muzzleFlash.SetTrigger("Flash");
         }
 
