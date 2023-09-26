@@ -40,7 +40,7 @@ public class Scenehandler : MonoBehaviour
             keyboard.SetActive(true); mouse.SetActive(true);
             background.SetActive(true);
             enemy.SetActive(true);
-            scareCrow.SetActive(false);
+           // scareCrow.SetActive(false);
             menusCanvas.enabled = false;
             Instantiate(player, new Vector2(0,-2f), transform.rotation);
             isImageDisplay = true;  

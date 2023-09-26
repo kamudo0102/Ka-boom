@@ -5,23 +5,43 @@ using UnityEngine.SceneManagement;
 
 public class StartEnemy : MonoBehaviour
 {
-    float delaytime = 1f;
-    bool a = true;
+  
+    [SerializeField]GameObject enemy;
+
+    public bool a  = true;
+
+    public Animator animator;
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
+
     // Start is called before the first frame update
     private void OnCollisionEnter2D(Collision2D other)
     {
         if(other.gameObject.CompareTag("Bullet"))
         {
-            
-            if(a == true)
+            if (a == true)
             {
                 a = false;
-            Destroy(other.gameObject);
-            GetComponent<Animator>().SetTrigger("OnHit");
-            Invoke("ReloadSceneMenu", delaytime);
+
+                animator.SetTrigger("OnHit");
+
             }
+            
             Destroy(other.gameObject);
         }
+
+
+    }
+
+    public void Destroy()
+    {
+        Destroy(gameObject);
+
+    
     }
 
     public void ReloadSceneMenu()

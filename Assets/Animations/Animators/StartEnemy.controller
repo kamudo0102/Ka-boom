@@ -9,13 +9,13 @@ AnimatorController:
   m_Name: StartEnemy
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: OnHit
+  - m_Name: Start
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: Start
+  - m_Name: OnHit
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -54,7 +54,7 @@ AnimatorStateMachine:
     m_Position: {x: 400, y: 150, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4664991695979640873}
-    m_Position: {x: 400, y: 10, z: 0}
+    m_Position: {x: 410, y: 20, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 6431736172993303525}
